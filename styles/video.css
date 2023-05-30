@@ -69,16 +69,19 @@
     }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 800px) {
     .videos-grid {
         grid-template-columns: 1fr 1fr;
+        column-gap: 5px;
     }
+
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1115px) {
     .videos-grid{
         grid-template-columns: 1fr 1fr 1fr;
-    } 
+        column-gap: 12px;
+    }
 }
 
 @media (min-width: 1700px) {
