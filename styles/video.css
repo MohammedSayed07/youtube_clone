@@ -1,0 +1,146 @@
+
+.thumbnails {
+    width: 360px;
+    margin-bottom: 5px;
+}
+
+.thumbnail-picutre {
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.video-info-grid {
+    display: grid;
+    grid-template-columns: 35px 1fr;
+}
+
+
+.profile-picture {
+    width: 35px;
+    border-radius: 17.5px;
+    cursor: pointer;
+}
+
+.video-info {
+    
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+
+.video-title {
+    width: 300px;
+    font-size: 16px;
+    color: rgb(15, 15, 15);
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.channel-name {
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 4px;
+    display: inline;
+}
+
+.channel-name:hover {
+    color: rgb(40, 40, 40);
+    cursor: pointer;
+    
+}
+
+.video-views {
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+}
+
+.videos-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 16px;
+}
+
+
+@media (min-width: 500px) {
+    .videos-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 1000px) {
+    .videos-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1300px) {
+    .videos-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    } 
+}
+
+@media (min-width: 1700px) {
+    .videos-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 12px;
+    }
+
+    .thumbnails {
+        width: 340px
+    }
+
+    .video-title {
+        width: 300px;
+    }
+} 
+
+@media (min-width: 2200px) {
+    .videos-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+} 
+
+@media (min-width: 2600px) {
+    .videos-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+} 
+
+@media (min-width: 3000px) {
+    .videos-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+} 
+
+@media (min-width: 3400px) {
+    .videos-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+} 
+
+@media (min-width: 3800px) {
+    .videos-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+} 
+
+@media (min-width: 4200px) {
+    .videos-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+} 
+
+@media (min-width: 4600px) {
+    .videos-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+} 
+
+@media (min-width: 5000px) {
+    .videos-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+} 
+

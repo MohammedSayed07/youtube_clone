@@ -1,0 +1,58 @@
+.side-nav {
+    background-color: white;
+    color: white;
+    position: fixed;
+    top:56px;
+    bottom: 0;
+    left:0;
+    width: 210px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    margin-top: 13px;
+}
+
+.side-nav div {
+    display: flex;
+    align-items: center;
+    margin-left: 14px;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.side-nav div:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+.side-nav div img {
+    height: 24px;
+}
+
+.side-nav div div {
+    font-size: 14px;
+}
+
+.side-nav-home {
+    background-color: rgb(242, 242, 242);
+    font-weight: 500;
+}
+
+.solid {
+    border-top: 1px solid rgba(242, 242, 242, .2);
+    width: 225px;
+    margin-left: 10px;
+}
+
+@media (max-width: 1314px) {
+    .side-nav div {
+        display: flex;
+        align-items: center;
+        margin-left: 14px;
+        padding: 6px 12px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+}
